@@ -1643,7 +1643,9 @@
                    &lwin_cad  &kp LALT  &td_ll_l3  &lscw   &kp SPACE     &kp RET     &kp BSPC  &td_rl_l3  &kp RALT   &kp BSLH
             >;
 
-           sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&kp RIGHT>, <&kp LEFT>, <&kp DOWN>, <&kp UP>, <&kp ENTER>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp RIGHT LEFT>;
         };
 
         lower_layer {
