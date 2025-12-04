@@ -13,6 +13,6 @@
         x-input = <&adc 5>; // VRy -> AIN5 (P0.29, 原编码器A脚)
         y-input = <&adc 4>; // VRx -> AIN4 (P0.28, 原编码器B脚)
         // 如果需要使用摇杆的下按功能(SW)，请取消注释并修改引脚号X
-        // sw-gpios = <&pro_micro X (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+       sw-gpios = <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
