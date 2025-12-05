@@ -1645,7 +1645,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp RIGHT LEFT>;
+                <&kp RIGHT>, <&kp LEFT>, <&kp DOWN>, <&kp UP>, <&kp ENTER>;
         };
 
         lower_layer {
